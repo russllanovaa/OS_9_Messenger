@@ -63,28 +63,32 @@ namespace Messenger {
 			// 
 			// richTextBox1
 			// 
-			this->richTextBox1->Location = System::Drawing::Point(21, 93);
+			this->richTextBox1->Location = System::Drawing::Point(16, 76);
+			this->richTextBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->richTextBox1->Name = L"richTextBox1";
-			this->richTextBox1->Size = System::Drawing::Size(495, 319);
+			this->richTextBox1->Size = System::Drawing::Size(372, 260);
 			this->richTextBox1->TabIndex = 0;
 			this->richTextBox1->Text = L"";
 			// 
 			// richTextBox2
 			// 
-			this->richTextBox2->Location = System::Drawing::Point(23, 470);
+			this->richTextBox2->Location = System::Drawing::Point(17, 382);
+			this->richTextBox2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->richTextBox2->Name = L"richTextBox2";
-			this->richTextBox2->Size = System::Drawing::Size(326, 78);
+			this->richTextBox2->Size = System::Drawing::Size(246, 64);
 			this->richTextBox2->TabIndex = 1;
 			this->richTextBox2->Text = L"";
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(382, 479);
+			this->button1->Location = System::Drawing::Point(286, 389);
+			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(111, 43);
+			this->button1->Size = System::Drawing::Size(83, 35);
 			this->button1->TabIndex = 2;
 			this->button1->Text = L"button1";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MessengerForm::button1_Click);
 			// 
 			// contextMenuStrip1
 			// 
@@ -94,12 +98,13 @@ namespace Messenger {
 			// 
 			// MessengerForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(534, 606);
+			this->ClientSize = System::Drawing::Size(400, 492);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->richTextBox2);
 			this->Controls->Add(this->richTextBox1);
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"MessengerForm";
 			this->Text = L"Messenger";
 			this->ResumeLayout(false);
@@ -107,5 +112,6 @@ namespace Messenger {
 		}
 #pragma endregion
 	
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e);
 	};
 }
