@@ -1,0 +1,4 @@
+D:\лаби\Server\OS_9_Messenger\Messenger\x64\Debug\Messenger.vcxproj.AssemblyReference.cache
+D:\лаби\Server\OS_9_Messenger\Messenger\x64\Debug\Messenger.ApplicationForm.resources
+D:\лаби\Server\OS_9_Messenger\Messenger\x64\Debug\Messenger.MessengerForm.resources
+D:\лаби\Server\OS_9_Messenger\Messenger\x64\Debug\Messenger.vcxproj.GenerateResource.cache
