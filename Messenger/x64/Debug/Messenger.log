@@ -1,3 +1,5 @@
 ﻿  MessengerForm.cpp
+  main.cpp
+  Generating Code...
   ApplicationForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Messenger.vcxproj -> D:\лаби\Server\OS_9_Messenger\x64\Debug\Messenger.exe
+  Messenger.vcxproj -> D:\ОС\лаби\lab.9\Messenger\x64\Debug\Messenger.exe
