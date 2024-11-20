@@ -1,0 +1,11 @@
+# Ігнорувати папку Visual Studio
+.vs/
+
+# Ігнорувати папку з побудовами
+x64/
+
+# Ігнорувати файли створені Visual Studio
+*.vcxproj.user
+*.vcxproj.filters
+*.ipch
+*.db
